@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="273.0">js.com.command.Invoker</node>
+    <node x="26.0" y="0.0">js.com.command.Command</node>
+    <node x="254.0" y="273.0">js.com.command.Receiver</node>
+    <node x="0.0" y="151.0">js.com.command.ConcreteCommand</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="js.com.command.ConcreteCommand" target="js.com.command.Command">
+      <point x="0.0" y="-38.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.1" x="263.090909090909" y="201.8181818181818" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
