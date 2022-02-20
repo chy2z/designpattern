@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
 * @Title: Publish
-* @Description:发布
+* @Description:发布抽象类
 * @author chy
 * @date 2018/6/1 17:07
 */

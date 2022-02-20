@@ -1,9 +1,7 @@
 package js.com.observer;
 
-/**
- * Created by Administrator on 2015/4/23.
- */
-public class ConcreteObserver implements  Observer {
+
+public class ConcreteObserver implements Observer {
 
     private ConcreteSubject subject;
 
@@ -30,8 +28,8 @@ public class ConcreteObserver implements  Observer {
         this.subject = subject;
     }
 
-    public void update(){
-        System.out.println("update invoked!");
-        System.out.println(subject.getSubjectState());
+    @Override
+    public void update() {
+        System.out.println(name + " update message:" + subject.getSubjectState());
     }
 }

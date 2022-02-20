@@ -9,6 +9,7 @@ package js.com.singleton;
 public class Client {
 
     public static void main(String[] ary){
+
         // 饿汉模式
         Hungry hungry = Hungry.getInstance();
 

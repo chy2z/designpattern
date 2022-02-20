@@ -1,8 +1,5 @@
 package js.com.strategy.strategyWithFactory;
 
-/**
- * Created by Administrator on 2015/4/22.
- */
 public class Context {
     private Strategy strategy;
 

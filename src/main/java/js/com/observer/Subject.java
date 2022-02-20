@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * Created by Administrator on 2015/4/23.
+ *   被观察者
  */
 public abstract class Subject {
     private List<Observer> observers = new ArrayList<Observer>();
@@ -17,9 +17,9 @@ public abstract class Subject {
         observers.remove(o);
     }
 
-    public void notifyOb(){
-        System.out.println("notify Invoked");
-        for (int i=0; i<observers.size(); i++){
+    public void notifyOb() {
+        System.out.println("notify begin");
+        for (int i = 0; i < observers.size(); i++) {
             observers.get(i).update();
         }
     }

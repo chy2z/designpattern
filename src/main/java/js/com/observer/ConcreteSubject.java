@@ -1,7 +1,7 @@
 package js.com.observer;
 
 /**
- * Created by Administrator on 2015/4/23.
+ * 具体的被观察者
  */
 public class ConcreteSubject extends Subject {
 
@@ -13,5 +13,9 @@ public class ConcreteSubject extends Subject {
 
     public void setSubjectState(String subjectState) {
         this.subjectState = subjectState;
+    }
+
+    public void notifySubs() {
+        this.notifyOb();
     }
 }

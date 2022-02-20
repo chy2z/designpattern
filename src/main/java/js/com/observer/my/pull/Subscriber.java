@@ -2,7 +2,7 @@ package js.com.observer.my.pull;
 
 /**
 * @Title: Subscriber
-* @Description: 订阅 (观察者)
+* @Description: 订阅者 (观察者)
 * @author chy
 * @date 2018/6/2 13:57
 */
@@ -25,6 +25,7 @@ public class Subscriber implements Subscribe {
     /**
      * 拉取信息
      */
+    @Override
     public void pull() {
        System.out.println("拉取信息:"+this.publish.getMsg());
     }

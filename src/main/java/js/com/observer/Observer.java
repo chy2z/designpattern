@@ -1,8 +1,8 @@
 package js.com.observer;
 
 /**
- * Created by Administrator on 2015/4/23.
+ * 观察着
  */
-public interface Observer {
-    public void update();
+public interface Observer  {
+    void update();
 }

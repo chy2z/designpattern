@@ -3,8 +3,11 @@ package js.experience.lsp.lsp3;
 import java.util.HashMap;
 
 /**
- * Created by chy on 2018/7/16.
- */
+* @Title: Client
+* @Description: 里氏替换原则
+* @author chy
+* @date 2018/8/17 10:32
+*/
 public class Client {
 
     /**

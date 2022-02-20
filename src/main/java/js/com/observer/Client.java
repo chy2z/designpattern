@@ -2,7 +2,7 @@ package js.com.observer;
 
 /**
  * 观察者模式
- * Created by Administrator on 2015/4/23.
+ *
  */
 public class Client {
     public static void main(String[] args) {
@@ -16,9 +16,8 @@ public class Client {
         subject.attach(ob2);
 
         subject.setSubjectState("ABC");
-        subject.notifyOb();
 
-        subject.setSubjectState("BDC");
-        subject.notifyOb();
+        subject.notifySubs();
+
     }
 }

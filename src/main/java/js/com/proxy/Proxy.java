@@ -19,5 +19,4 @@ public class Proxy implements Subject{
         subject.request();
         System.out.println("Proxy end invoked!");
     }
-
 }
